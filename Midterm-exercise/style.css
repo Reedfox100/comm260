@@ -1,0 +1,42 @@
+﻿body{
+	background-color: #F5F5F5;
+}
+h2{
+	color: #777;
+	font-size: 50px;
+}
+main{
+	background-color: white;
+	width: 1125px;
+	padding: 15px;
+}
+
+
+p{
+	text-align: justify;
+	text-indent:50px;
+	width: 800px;
+	font-size: 20px;
+	font-family: Georgia, serif;
+	margin-left: 10px;
+}
+#block{
+	color:#5CBFFF;
+	background-color:#E6E6E6;
+    width: 300px;
+	display: inline;
+	float:right;
+	padding: 15px;
+	font-size: 30px;
+	margin-right:350px;
+	font-weight: bold;
+
+}
+#simply{
+	width: 500px;
+	
+}
+.list a:hover, .list a:active, .list a:focus{
+	text-decoration: underline overline;
+	font-size: 30px;
+}
