@@ -15,6 +15,15 @@ html {
 	color:RGB(255,102,0);
 	
 }
+.row	{
+	display: flex;
+	justify-content: flex-center;
+}
+.column	{
+	margin: 0px;
+	justify-content: flex-center;
+}
+
 .container {
 	margin: 0px auto;
 	width: 1850px;
@@ -138,23 +147,50 @@ h4{
 	font-size: 25px;
 }
 #daphnia	{
-	width: 50%;
+	width: 350px;
 	height: auto;
 }
 #weeds{
-	width: 50%;
+	width: 300px;
 	height: auto;
 
 }
 #common-snail	{
-	width: 50%;
+	width: 400px;
 	height: auto;
 }
 #duckweed	{
-	width: 50%;
+	width: 400px;
 	height: auto;
 }
-
+@media screen and (max-width: 1000px)	{
+	ul a	{
+		padding: 20px;
+	}
+	footer{
+		max-width: 700px;
+	}
+	img		{
+		width: 50%;
+		height auto;
+		padding: 0px 0px 4px 0px;
+	}
+	#posts	{
+		max-width:500 px;
+	}
+	#weeds	{
+		width: 200px;
+		height: auto;
+	}
+	#daphnia	{
+		width: 200px;
+		height: auto;
+	}
+	#common-snail{
+		width: 200px;
+		height: auto;
+	}
+}
 @media screen and (max-width: 700px) {
   ul a	{   
     width: 400px;
@@ -184,21 +220,19 @@ h4{
   #character-intro	{
   	  width: 400px;
   }
+  #weeds{
+  	  width: 150px;
+	  height: auto;
+  }
+  	#daphnia	{
+		width: 150px;
+		height: auto;
+	}
+	#common-snail{
+		width: 150px;
+		height: auto;
+	}
 
 }
-@media screen and (max-width: 1000px)	{
-	ul a	{
-		padding: 20px;
-	}
-	footer{
-		max-width: 700px;
-	}
-	img		{
-		width: 50%;
-		height auto;
-		padding: 0px 0px 4px 0px;
-	}
-	#posts	{
-		max-width:500 px;
-	}
-}
+
+
